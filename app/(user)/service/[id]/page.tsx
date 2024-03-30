@@ -8,7 +8,7 @@ type PropsParams = {
     searchParams : any;
 }
 const ENDPOINT = "https://fakestoreapi.com/products/";
-export const getData = async (id:number) => {
+ const getData = async (id:number) => {
     const res = await fetch(`${ENDPOINT}${id}`);
     const data = await res.json();
     console.log(data);
