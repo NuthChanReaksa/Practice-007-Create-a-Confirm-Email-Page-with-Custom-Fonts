@@ -13,7 +13,7 @@ export const metadata : Metadata = {
 	openGraph: {
 		title : "ISTAD Ecommerce Web",
 		description : "ISTAD Ecommerce Web is a web application for selling products.",
-		images: 'https://store.istad.co/media/brand_images/pandaFT.jpg'
+		// images: 'https://store.istad.co/media/brand_images/pandaFT.jpg'
 	}
 }
 export default function RootLayout({
